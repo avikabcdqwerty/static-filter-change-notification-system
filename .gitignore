@@ -1,0 +1,94 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+*.out
+*.log.*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.pgsql
+*.psql
+*.pgdata
+pgdata/
+data/
+dump.sql
+
+# TypeORM
+ormconfig.json
+ormconfig.js
+ormconfig.ts
+ormconfig.yml
+ormconfig.env
+
+# Redis
+dump.rdb
+appendonly.aof
+redis-data/
+redis.conf
+
+# Jest
+coverage/
+jest-coverage/
+*.lcov
+*.lcov.info
+.jest/
+.jest-cache/
+.jest-test-results.json
+
+# Swagger
+swagger.json
+swagger.yaml
+swagger-output.json
+
+# Nodemailer
+*.maildev
+
+# Misc
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Winston logs
+winston-logs/
+logs/
+log/
+debug.log
+
+# OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Test & debug
+test-results/
+debug/
+tmp/
+temp/
